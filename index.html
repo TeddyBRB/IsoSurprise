@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IsoSurprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <p class="eyebrow">classified birthday message</p>
+      <h1>Enter the secret password</h1>
+
+      <form id="passwordForm" class="password-area">
+        <label for="passwordInput">Secret password</label>
+        <div class="input-row">
+          <input id="passwordInput" type="password" placeholder="type it here..." autocomplete="off" />
+          <button type="submit">Unlock</button>
+        </div>
+        <p id="hint" class="hint">Hint: only the chosen one may enter.</p>
+      </form>
+
+      <section id="secretBox" class="secret-box hidden" aria-live="polite">
+        <div class="photo-frame">
+          <img src="images/cat.png" alt="A very important cat" />
+        </div>
+
+        <h2>🎉 Secret Birthday Message 🎉</h2>
+        <div id="messageText" class="message-box"></div>
+      </section>
+    </section>
+  </main>
+
+  <a id="confettiButton" class="confetti-button hidden" href="#" target="_blank" rel="noopener noreferrer">
+    press me for confetti
+  </a>
+
+  <script src="secret-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

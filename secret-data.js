@@ -1,0 +1,6 @@
+const SECRET_DATA = {
+  iterations: 250000,
+  salt: "9lvvx3F4P2IONCIKz2pRSQ==",
+  iv: "V8DSgGsJIfbC49Zp",
+  ciphertext: "TxhFMGSLL9silZJuDZl8mb7Hzt4DkAF2YOdzHGLm0gNC8F0ehVpLMZyee79are0RVkRrMfsaiF+1UxJDk/i12tMVCs88lKMq0TPqMtsg3XYk9YCFCVhiOuN/9BnJzbr3xw75k53DDBn54bJxV/7FraaAoYfQAYVFpe3IIsLEwnR/r97cc2U3SJgUmmiSaXcsXIuucp2fQ5n+Uj4ZyohLv5PWONEkcHX/27ap3ySLxoKJMro8xBB0sn9AjUOuOWzxBBA0CBDiC+Q6i/FanrN9GFddfHvie+Zkj+TAm5e9SjC1Sw1mXKT3bvpoYw0UAcmMwmY1/tUuM6eg/jap0ziqV5LLgXuHAfxDbPOUTRRu/Fz6GYyT2Jdj"
+};
