@@ -1,5 +1,5 @@
 // Change this to your YouTube link.
-const YOUTUBE_LINK = "https://www.youtube.com/watch?v=IGAxLV2m0q8";
+const YOUTUBE_LINK = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 const form = document.getElementById("passwordForm");
 const input = document.getElementById("passwordInput");
